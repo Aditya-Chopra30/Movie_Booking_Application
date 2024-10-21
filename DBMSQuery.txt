@@ -1,0 +1,11 @@
+create database movieDB;
+
+alter table movie_user modify username varchar(10);
+
+To update rows --> UPDATE tableName set columnName where condition;
+
+Delete row --> delete from tablename; --> deletes all the rows in the table.
+
+delete from tablename where condition; --> deletes the specific row based on the condition.
+
+Drop Table tablename; --> deletes the table.
